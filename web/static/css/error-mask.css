@@ -1,0 +1,31 @@
+#mask > * {
+    color: white;
+  }
+  
+  /* 遮罩层 */
+  #mask {
+    background-color: rgb(0, 0, 0, 0.4);
+    width: 100%;
+    height: 100%;
+  }
+  
+  /* 占位盒子 */
+  #mask > div:first-child {
+    height: 85px;
+  }
+  
+  #mask > h1 {
+    font-size: 84px;
+  }
+  
+  #mask > h2 {
+    font-size: 50px;
+  }
+  
+  #mask > h2 > a {
+    color: #fa8341;
+  }
+  
+  #mask > h2 > a:hover {
+    color: #409eff;
+  }
